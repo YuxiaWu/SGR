@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" content="We’re on a journey to solve and democratize artificial intelligence through natural language.">
+	<meta property="fb:app_id" content="1321688464574422">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@huggingface">
+		<meta property="og:title" content="pytorch_model.bin · microsoft/DialoGPT-small at main">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://huggingface.co/microsoft/DialoGPT-small/blob/main/pytorch_model.bin">
+			<meta property="og:image" content="https://huggingface.co/front/thumbnails/2.png">
+	
+	<link rel="stylesheet" href="/front/build/style.b7bc997.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+		rel="stylesheet"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+	
+	<title>
+			pytorch_model.bin · microsoft/DialoGPT-small at main
+	</title>
+</head>
+<body class="flex flex-col min-h-screen viewer-blob">
+	<header class="border-b border-gray-100 z-10">
+  <div class="container flex items-center h-16">
+    <div class="flex flex-1 items-center">
+      <a class="flex flex-none items-center mr-5 lg:mr-6" href="/">
+        <img alt="Hugging Face's logo" class="md:mr-2 w-7" src="/front/assets/huggingface_logo.svg"> 
+        <span class="hidden text-lg font-bold whitespace-nowrap md:block">Hugging Face</span>
+      </a>
+      
+<div 
+	class="v2-quick-search relative flex-1 lg:max-w-sm mr-2 md:mr-4"
+	search-type="all"
+	url="/api/quicksearch-html"
+	with-links="true"
+>
+	<input
+		autocomplete="off" 
+		class="v2-quick-search-input w-full  h-9 pl-8 pr-3 border border-gray-200 shadow-inner rounded-lg outline-none focus:ring-2 focus:shadow-xl placeholder-gray-400 focus:ring-inset"
+		name=""
+		placeholder="Search models, datasets, users..."
+		
+		spellcheck="false"
+		type="text"
+	/>
+		<svg
+  alt=""
+  class="absolute left-2.5 top-2.5 text-gray-400"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+>
+  <path
+    d="M30 28.59L22.45 21A11 11 0 1 0 21 22.45L28.59 30zM5 14a9 9 0 1 1 9 9a9 9 0 0 1-9-9z"
+    fill="currentColor"
+  ></path>
+</svg>
+	<ul 
+		class="v2-quick-search-results z-40 hidden absolute w-full overflow-hidden text-sm bg-white border border-gray-100 rounded-lg shadow-lg divide-y divide-gray-100"
+		role="listbox"
+	></ul>
+</div>
+      <button 
+        id="v2-phone-nav-button" 
+        class="lg:hidden relative flex-none place-self-stretch flex items-center justify-center w-8"
+        type="button"
+      >
+        <svg
+  alt=""
+  class="v2-phone-nav-icon-open"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="22"
+  height="22"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+>
+  <path d="M4 24h24v2H4z" fill="currentColor"></path>
+  <path d="M4 12h24v2H4z" fill="currentColor"></path>
+  <path d="M4 18h24v2H4z" fill="currentColor"></path>
+  <path d="M4 6h24v2H4z" fill="currentColor"></path>
+</svg>
+        <svg
+  alt=""
+	class="v2-phone-nav-icon-close hidden"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1.1em"
+  height="1.1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+>
+  <path
+    d="M24 9.4L22.6 8L16 14.6L9.4 8L8 9.4l6.6 6.6L8 22.6L9.4 24l6.6-6.6l6.6 6.6l1.4-1.4l-6.6-6.6L24 9.4z"
+    fill="currentColor"
+  ></path>
+</svg>
+      </button>
+    </div>
+    <nav 
+  aria-label="Main"
+  class="ml-auto hidden lg:block"
+>
+  <ul class="flex items-center space-x-6">
+    <li>
+      <a 
+        class="flex items-center group hover:text-indigo-700" 
+        href="/models"
+      >
+        <svg
+  alt=""
+  class="mr-1.5 text-gray-400 group-hover:text-indigo-500"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-quaternary"
+    d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z"
+    fill="currentColor"
+  ></path>
+</svg>
+        Models
+      </a>
+    </li>
+    <li>
+      <a 
+        class="flex items-center group hover:text-red-700" 
+        href="/datasets"
+      >
+        <svg
+  class="mr-1.5 text-gray-400 group-hover:text-red-500"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  alt=""
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 25 25"
+>
+  <ellipse
+    cx="12.5"
+    cy="5"
+    fill="currentColor"
+    fill-opacity="0.25"
+    rx="7.5"
+    ry="2"
+  ></ellipse>
+  <path
+    d="M12.5 15C16.6421 15 20 14.1046 20 13V20C20 21.1046 16.6421 22 12.5 22C8.35786 22 5 21.1046 5 20V13C5 14.1046 8.35786 15 12.5 15Z"
+	fill="currentColor"
+	opacity="0.5"
+  ></path>
+  <path
+    d="M12.5 7C16.6421 7 20 6.10457 20 5V11.5C20 12.6046 16.6421 13.5 12.5 13.5C8.35786 13.5 5 12.6046 5 11.5V5C5 6.10457 8.35786 7 12.5 7Z"
+	fill="currentColor"
+	opacity="0.5"
+  ></path>
+  <path
+    d="M5.23628 12C5.08204 12.1598 5 12.8273 5 13C5 14.1046 8.35786 15 12.5 15C16.6421 15 20 14.1046 20 13C20 12.8273 19.918 12.1598 19.7637 12C18.9311 12.8626 15.9947 13.5 12.5 13.5C9.0053 13.5 6.06886 12.8626 5.23628 12Z"
+	fill="currentColor"
+  ></path>
+</svg>
+        Datasets
+      </a>
+    </li>
+    <li>
+      <a 
+        class="flex items-center group hover:text-gray-500" 
+        href="/pricing"
+      >
+        Pricing
+      </a>
+    </li>
+    <li class="b-r">
+<div 
+  class="v2-dropdown relative "
+  
+>
+  <button
+  class="v2-dropdown-button cursor-pointer hover:text-gray-500 flex items-center"
+  slot="trigger"
+  type="button"
+>
+	          <svg alt=""
+	 class="mr-2 text-gray-400 fill-current w-3" 
+	 xmlns="http://www.w3.org/2000/svg"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 aria-hidden="true"
+	 focusable="false"
+	 role="img"
+	 width="1em"
+	 height="1em"
+	 viewBox="0 0 11 8"
+	 preserveAspectRatio="xMidYMid meet">
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.5H0V0.5H11V1.5ZM11 7.5H0V6.5H11V7.5ZM0 4.5H11V3.5H0V4.5Z" />
+</svg>
+          Resources
+</button><div 
+  class="v2-dropdown-menu hidden absolute mt-1 min-w-full bg-white rounded-xl overflow-hidden shadow-lg z-10 border border-gray-100 right-0 top-full "
+>
+  <ul class="min-w-full w-52">
+  	          <li>
+<div
+  class="col-span-2 -mx-2 px-4 flex items-center font-semibold bg-gradient-to-r to-white h-7 text-blue-800 from-blue-50"
+>
+	              Website
+</div>            <ul>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/metrics"
+    
+  >
+                    <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-quaternary"
+    d="M6 23H2a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M14 23h-4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M22 23h-4a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+</svg>
+                Metrics              
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/languages"
+    
+  >
+                    <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-primary"
+    d="M17 13H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M12 2a10 10 0 0 0-7.743 16.33l-1.964 1.963A1 1 0 0 0 3 22h9a10 10 0 0 0 0-20zM9 7h6a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2zm6 10H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zm2-4H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M15 17H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zm0-8H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z"
+    fill="currentColor"
+  ></path>
+</svg>
+                Languages
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/organizations"
+    
+  >
+                    <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-tertiary"
+    d="M12 18a3.5 3.5 0 1 1 3.5-3.5A3.504 3.504 0 0 1 12 18z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M14.64 16.772a3.452 3.452 0 0 1-5.28 0A4.988 4.988 0 0 0 7 21a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1a4.988 4.988 0 0 0-2.36-4.228z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M21 12a.996.996 0 0 1-.664-.252L12 4.338l-8.336 7.41a1 1 0 0 1-1.328-1.496l9-8a.999.999 0 0 1 1.328 0l9 8A1 1 0 0 1 21 12z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-quaternary"
+    d="M12 4.338l-8 7.111V21a1 1 0 0 0 1 1h3a1 1 0 0 1-1-1a4.988 4.988 0 0 1 2.36-4.228A3.469 3.469 0 0 1 8.5 14.5a3.5 3.5 0 0 1 7 0a3.469 3.469 0 0 1-.86 2.272A4.988 4.988 0 0 1 17 21a1 1 0 0 1-1 1h3a1 1 0 0 0 1-1v-9.551z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+</svg>
+                Organizations
+  </a>
+</li>
+            </ul>
+          </li>
+          <li>
+<div
+  class="col-span-2 -mx-2 px-4 flex items-center font-semibold bg-gradient-to-r to-white h-7 text-yellow-800 from-yellow-50"
+>
+	              Community
+</div>            <ul>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="https://discuss.huggingface.co/"
+    target="_blank"
+  >
+                    Forum
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/blog"
+    
+  >
+                    Blog
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="https://github.com/huggingface"
+    target="_blank"
+  >
+                    GitHub
+  </a>
+</li>
+            </ul>
+          </li>
+          <li>
+<div
+  class="col-span-2 -mx-2 px-4 flex items-center font-semibold bg-gradient-to-r to-white h-7 text-green-800 from-green-50"
+>
+	              Documentation
+</div>            <ul>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/docs"
+    
+  >
+                    Model Hub doc 
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="https://api-inference.huggingface.co/docs/"
+    target="_blank"
+  >
+                      Inference API doc 
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/transformers/"
+    
+  >
+                      Transformers doc 
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/docs/tokenizers/python/latest/"
+    
+  >
+                      Tokenizers doc 
+  </a>
+</li>
+<li>
+  <a
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+      px-3 py-1.5 
+      
+    "
+    
+    
+    href="/docs/datasets/"
+    
+  >
+                      Datasets doc 
+  </a>
+</li>
+            </ul>
+          </li>
+  </ul>
+</div></div>
+    </li>
+    <li>
+      <hr class="w-0.5 h-5 bg-gray-100" />
+    </li>
+      <li>
+        <a 
+          class="block cursor-pointer hover:text-gray-500" 
+          href="/login"
+        >
+          Log In
+        </a>
+      </li>
+      <li>
+        <a 
+          class="btn" 
+          href="/join"
+        >
+          Sign Up
+        </a>
+      </li>
+  </ul>
+</nav>    <div
+  id="v2-phone-nav-menu"
+  class="hidden lg:hidden z-20 fixed bg-white top-16 inset-0 overflow-y-auto"
+>
+  <nav aria-label="Main">
+    <ul class="px-2 pb-4 space-y-4">
+      <li class="space-y-2.5">
+        <div
+          class="-mx-2 flex items-center px-2 font-semibold
+              text-purple-800 bg-gradient-to-r from-purple-50 to-white h-7"
+        >
+          Account
+        </div>
+        <ul class="grid gap-2.5 grid-cols-2 content-start">
+            <li>
+              <a class="btn w-full v2-dropdown-entry" href="/login">
+                Log In
+              </a>
+            </li>
+            <li>
+              <a class="btn w-full v2-dropdown-entry" href="/join">
+                Sign Up
+              </a>
+            </li>
+        </ul>
+      </li>
+      <li class="space-y-2.5">
+        <div
+          class="-mx-2 flex items-center px-2 font-semibold text-blue-800
+              bg-gradient-to-r from-blue-50 to-white h-7"
+        >
+          Website
+        </div>
+        <ul class="grid gap-2.5 grid-cols-2 content-start">
+          <li>
+            <a href="/models" class="btn w-full v2-dropdown-entry">
+              <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-quaternary"
+    d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z"
+    fill="currentColor"
+  ></path>
+</svg>
+              Models
+            </a>
+          </li>
+          <li>
+            <a href="/datasets" class="btn w-full v2-dropdown-entry">
+              <svg
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  alt=""
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 25 25"
+>
+  <ellipse
+    cx="12.5"
+    cy="5"
+    fill="currentColor"
+    fill-opacity="0.25"
+    rx="7.5"
+    ry="2"
+  ></ellipse>
+  <path
+    d="M12.5 15C16.6421 15 20 14.1046 20 13V20C20 21.1046 16.6421 22 12.5 22C8.35786 22 5 21.1046 5 20V13C5 14.1046 8.35786 15 12.5 15Z"
+	fill="currentColor"
+	opacity="0.5"
+  ></path>
+  <path
+    d="M12.5 7C16.6421 7 20 6.10457 20 5V11.5C20 12.6046 16.6421 13.5 12.5 13.5C8.35786 13.5 5 12.6046 5 11.5V5C5 6.10457 8.35786 7 12.5 7Z"
+	fill="currentColor"
+	opacity="0.5"
+  ></path>
+  <path
+    d="M5.23628 12C5.08204 12.1598 5 12.8273 5 13C5 14.1046 8.35786 15 12.5 15C16.6421 15 20 14.1046 20 13C20 12.8273 19.918 12.1598 19.7637 12C18.9311 12.8626 15.9947 13.5 12.5 13.5C9.0053 13.5 6.06886 12.8626 5.23628 12Z"
+	fill="currentColor"
+  ></path>
+</svg>
+              Datasets
+            </a>
+          </li>
+          <li>
+            <a href="/metrics" class="btn w-full v2-dropdown-entry">
+              <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-quaternary"
+    d="M6 23H2a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M14 23h-4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M22 23h-4a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+</svg>
+              Metrics
+            </a>
+          </li>
+          <li>
+            <a href="/languages" class="btn w-full v2-dropdown-entry">
+              <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-primary"
+    d="M17 13H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M12 2a10 10 0 0 0-7.743 16.33l-1.964 1.963A1 1 0 0 0 3 22h9a10 10 0 0 0 0-20zM9 7h6a1 1 0 0 1 0 2H9a1 1 0 0 1 0-2zm6 10H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zm2-4H7a1 1 0 0 1 0-2h10a1 1 0 0 1 0 2z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M15 17H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zm0-8H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z"
+    fill="currentColor"
+  ></path>
+</svg>
+              Languages
+            </a>
+          </li>
+          <li>
+            <a href="/organizations" class="btn w-full v2-dropdown-entry">
+              <svg
+  alt=""
+  class="text-gray-400 mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-tertiary"
+    d="M12 18a3.5 3.5 0 1 1 3.5-3.5A3.504 3.504 0 0 1 12 18z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M14.64 16.772a3.452 3.452 0 0 1-5.28 0A4.988 4.988 0 0 0 7 21a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1a4.988 4.988 0 0 0-2.36-4.228z"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M21 12a.996.996 0 0 1-.664-.252L12 4.338l-8.336 7.41a1 1 0 0 1-1.328-1.496l9-8a.999.999 0 0 1 1.328 0l9 8A1 1 0 0 1 21 12z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-quaternary"
+    d="M12 4.338l-8 7.111V21a1 1 0 0 0 1 1h3a1 1 0 0 1-1-1a4.988 4.988 0 0 1 2.36-4.228A3.469 3.469 0 0 1 8.5 14.5a3.5 3.5 0 0 1 7 0a3.469 3.469 0 0 1-.86 2.272A4.988 4.988 0 0 1 17 21a1 1 0 0 1-1 1h3a1 1 0 0 0 1-1v-9.551z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+</svg>
+              Organizations
+            </a>
+          </li>
+          <li>
+            <a href="/pricing" class="btn w-full v2-dropdown-entry">
+              Pricing
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="space-y-2.5">
+        <div
+          class="-mx-2 flex items-center px-2 font-semibold
+              text-yellow-800 bg-gradient-to-r from-yellow-50 to-white h-7"
+        >
+          Community
+        </div>
+        <ul class="grid gap-2.5 grid-cols-2 content-start">
+          <li>
+            <a href="https://discuss.huggingface.co/" class="btn w-full v2-dropdown-entry">
+              Forum
+              </a>
+          </li>
+          <li>
+            <a href="/blog" class="btn w-full v2-dropdown-entry">
+              Blog
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="space-y-2.5">
+        <div
+          class="-mx-2 flex items-center px-2 font-semibold
+              text-green-800 bg-gradient-to-r from-green-50 to-white h-7"
+        >
+          Documentation
+        </div>
+        <ul class="grid gap-2.5 grid-cols-2 content-start">
+          <li>
+            <a href="/docs" class="btn w-full v2-dropdown-entry">
+              Model Hub doc
+              </a>
+          </li>
+          <li>
+            <a href="https://api-inference.huggingface.co/docs/" class="btn w-full v2-dropdown-entry">
+              Inference API doc
+              </a>
+          </li>
+          <li>
+            <a href="/transformers/" class="btn w-full v2-dropdown-entry">
+              Transformers doc
+              </a>
+          </li>
+          <li>
+            <a href="/docs/tokenizers/python/latest/" class="btn w-full v2-dropdown-entry">
+              Tokenizers doc
+              </a>
+          </li>
+          <li>
+            <a href="/docs/datasets/" class="btn w-full v2-dropdown-entry">
+              Datasets doc
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>  </div>
+</header>			<main class="flex flex-col flex-1 ">
+		<header class="bg-gradient-to-t from-gray-50 via-white to-white pt-10">
+	<div class="container relative">
+		  <h1 class="flex items-center flex-wrap font-mono md:text-xl mb-3">
+      <div class="inline-flex items-center">
+        		<img 
+			class="w-4 h-4 rounded mr-1.5" 
+			alt="'s picture"
+			src="https://aeiljuispo.cloudimg.io/v7/https://s3.amazonaws.com/moonup/production/uploads/1583646260758-5e64858c87403103f9f1055d.png?w&#x3D;200&amp;h&#x3D;200&amp;f&#x3D;face"
+		/> 
+        <a href="/microsoft" class="font-sans text-gray-400 hover:text-blue-600">
+          microsoft
+        </a>
+        <div class="text-gray-300 mx-0.5">/</div> 
+      </div>
+    <div class="font-semibold">
+      <a href="/microsoft/DialoGPT-small">
+          DialoGPT-small
+      </a>
+    </div> 
+  </h1>
+  <div class="flex flex-wrap mb-5">
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-white to-white text-gray-700 hover:to-gray-100 
+     "
+     href="/models?filter=text-generation"
+     tag-id="text-generation"
+>    
+          <div class="flex items-center flex-none pl-2 bg-gradient-to-t to-white h-7 w-8
+                    text-indigo-500 from-indigo-50 
+          ">
+               	<svg
+  alt=""
+  class=""
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  fill="currentColor"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 18 18"
+>
+  <path
+    d="M16.2607 8.08202L14.468 6.28928C14.3063 6.12804 14.0873 6.03749 13.859 6.03749C13.6307 6.03749 13.4117 6.12804 13.25 6.28928L5.6375 13.904V16.9125H8.64607L16.2607 9.30002C16.422 9.13836 16.5125 8.91935 16.5125 8.69102C16.5125 8.4627 16.422 8.24369 16.2607 8.08202V8.08202ZM8.1953 15.825H6.725V14.3547L11.858 9.22118L13.3288 10.6915L8.1953 15.825ZM14.0982 9.92262L12.6279 8.45232L13.8606 7.21964L15.3309 8.68994L14.0982 9.92262Z"
+  ></path>
+  <path
+    d="M6.18125 9.84373H7.26875V6.03748H8.9V4.94998H4.55V6.03748H6.18125V9.84373Z"
+  ></path>
+  <path
+    d="M4.55 11.475H2.375V2.775H11.075V4.95H12.1625V2.775C12.1625 2.48658 12.0479 2.20997 11.844 2.00602C11.64 1.80208 11.3634 1.6875 11.075 1.6875H2.375C2.08658 1.6875 1.80997 1.80208 1.60602 2.00602C1.40207 2.20997 1.2875 2.48658 1.2875 2.775V11.475C1.2875 11.7634 1.40207 12.04 1.60602 12.244C1.80997 12.4479 2.08658 12.5625 2.375 12.5625H4.55V11.475Z"
+  ></path>
+</svg>
+          </div>
+     <span>
+          Text Generation
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-red-50 to-red-50 text-red-800 hover:to-red-100
+"
+     href="/models?filter=pytorch"
+     tag-id="pytorch"
+>    
+          	<svg
+	alt=""
+	class="inline-block ml-2 text-sm"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	aria-hidden="true"
+	focusable="false"
+	role="img"
+	width="0.83em"
+	height="1em"
+	preserveAspectRatio="xMidYMid meet"
+	viewBox="0 0 256 310"
+>
+	<path
+		d="M218.281 90.106c50.292 50.292 50.292 130.969 0 181.61c-49.244 50.292-130.27 50.292-180.562 0s-50.292-131.318 0-181.61L127.825 0v45.053l-8.382 8.382l-59.721 59.722c-37.72 37.02-37.72 97.79 0 135.509c37.02 37.719 97.79 37.719 135.509 0c37.719-37.02 37.719-97.79 0-135.51l23.05-23.05zm-45.053-5.588c-9.259 0-16.764-7.505-16.764-16.764c0-9.258 7.505-16.764 16.764-16.764c9.258 0 16.764 7.506 16.764 16.764c0 9.259-7.506 16.764-16.764 16.764z"
+		fill="#EE4C2C"
+	></path>
+</svg>
+          <span>
+          PyTorch
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-red-50 to-red-50 text-red-800 hover:to-red-100
+"
+     href="/models?filter=tf"
+     tag-id="tf"
+>    
+          	<svg
+  class="inline-block ml-2 text-sm"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="0.94em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 256 274"
+>
+  <path
+    d="M145.726 42.065v42.07l72.861 42.07v-42.07l-72.86-42.07zM0 84.135v42.07l36.43 21.03V105.17L0 84.135zm109.291 21.035l-36.43 21.034v126.2l36.43 21.035v-84.135l36.435 21.035v-42.07l-36.435-21.034V105.17z"
+    fill="#E55B2D"
+  ></path>
+  <path
+    d="M145.726 42.065L36.43 105.17v42.065l72.861-42.065v42.065l36.435-21.03v-84.14zM255.022 63.1l-36.435 21.035v42.07l36.435-21.035V63.1zm-72.865 84.135l-36.43 21.035v42.07l36.43-21.036v-42.07zm-36.43 63.104l-36.436-21.035v84.135l36.435-21.035V210.34z"
+    fill="#ED8E24"
+  ></path>
+  <path
+    d="M145.726 0L0 84.135l36.43 21.035l109.296-63.105l72.861 42.07L255.022 63.1L145.726 0zm0 126.204l-36.435 21.03l36.435 21.036l36.43-21.035l-36.43-21.03z"
+    fill="#F8BF3C"
+  ></path>
+</svg>
+          <span>
+          TensorFlow
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-purple-50 to-purple-50 text-purple-800 hover:to-purple-100
+"
+     href="/models?filter=arxiv:1911.00536"
+     tag-id="arxiv:1911.00536"
+>    
+     <span>
+          arxiv:1911.00536
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-blue-50 to-blue-50 text-blue-800 hover:to-blue-100
+"
+     href="/models?filter=license:mit"
+     tag-id="license:mit"
+>    
+     <span>
+          mit
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-purple-50 to-purple-50 text-purple-800 hover:to-purple-100
+"
+     href="/models?filter=gpt2"
+     tag-id="gpt2"
+>    
+     <span>
+          gpt2
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-purple-50 to-purple-50 text-purple-800 hover:to-purple-100
+"
+     href="/models?filter=lm-head"
+     tag-id="lm-head"
+>    
+     <span>
+          lm-head
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-purple-50 to-purple-50 text-purple-800 hover:to-purple-100
+"
+     href="/models?filter=causal-lm"
+     tag-id="causal-lm"
+>    
+     <span>
+          causal-lm
+     </span>
+     
+</a>
+      <a class="
+     tag mr-1 mb-1 md:mr-1.5 md:mb-1.5 h-7 flex-none 
+     
+          from-purple-50 to-purple-50 text-purple-800 hover:to-purple-100
+"
+     href="/models?filter=conversational"
+     tag-id="conversational"
+>    
+     <span>
+          conversational
+     </span>
+     
+</a>
+  </div>
+  <div class="border-b border-gray-100">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center h-12 -mb-px overflow-x-auto overflow-y-hidden">
+        <a
+          class="tab-alternate "
+          href="/microsoft/DialoGPT-small"
+        >
+          <svg
+  alt=""
+  class="mr-1.5 text-gray-400"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-quaternary"
+    d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z"
+    opacity=".25"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-tertiary"
+    d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z"
+    fill="currentColor"
+  ></path>
+</svg>
+          Model card
+        </a>
+        <a
+          class="tab-alternate active"
+          href="/microsoft/DialoGPT-small/tree/main"
+        >
+          <svg
+  alt=""
+  class="mr-1.5 text-gray-400"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+>
+  <path
+    class="uim-tertiary"
+    d="M21 19h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2zm0-4h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2zm0-8h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2zm0 4h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2z"
+    opacity=".5"
+    fill="currentColor"
+  ></path>
+  <path
+    class="uim-primary"
+    d="M9 19a1 1 0 0 1-1-1V6a1 1 0 0 1 2 0v12a1 1 0 0 1-1 1zm-6-4.333a1 1 0 0 1-.64-1.769L3.438 12l-1.078-.898a1 1 0 0 1 1.28-1.538l2 1.667a1 1 0 0 1 0 1.538l-2 1.667a.999.999 0 0 1-.64.231z"
+    fill="currentColor"
+  ></path>
+</svg>
+          Files and versions
+        </a>
+      </div>
+      <div class="relative hidden space-x-1.5 md:flex">
+<div 
+  class="v2-dropdown relative "
+  
+>
+  <button
+  class="v2-dropdown-button cursor-pointer btn text-sm"
+  slot="trigger"
+  type="button"
+>
+	            <svg
+  alt=""
+  class="mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+  style="transform: rotate(360deg);"
+>
+  <path
+    d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M12.419 25.484L17.639 6l1.932.518L14.35 26z"
+    fill="currentColor"
+  ></path>
+</svg>
+              Use in transformers
+</button><div 
+  class="v2-dropdown-menu hidden absolute mt-1 min-w-full bg-white rounded-xl overflow-hidden shadow-lg z-10 border border-gray-100 right-0 top-full "
+>
+  <ul class="min-w-full w-auto">
+  	            <div class="v2-to-clipboard" style="width: 700px;">
+              <div class="border-b px-4 py-2 bg-gradient-to-r from-gray-50 to-white border-gray-200 flex justify-between items-center h-11">
+                <h3 class="font-semibold">
+                  How to use from the
+                    <a target="_blank" href="https://github.com/huggingface/transformers">🤗/transformers</a>
+                  library:
+                </h3>
+                <button 
+                  class="v2-to-clipboard-button text-sm underline flex items-center cursor-pointer text-gray-500"
+                >
+                  <svg
+  alt=""
+  class="mr-1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+>
+  <path
+    d="M25.7 9.3l-7-7A.908.908 0 0 0 18 2H8a2.006 2.006 0 0 0-2 2v24a2.006 2.006 0 0 0 2 2h16a2.006 2.006 0 0 0 2-2V10a.908.908 0 0 0-.3-.7zM18 4.4l5.6 5.6H18zM24 28H8V4h8v6a2.006 2.006 0 0 0 2 2h6z"
+    fill="currentColor"
+  ></path>
+</svg>
+                  Copy to clipboard
+                </button>
+              </div>
+              <pre class="v2-to-clipboard-content whitespace-pre-line text-sm p-4 text-gray-700">
+                  from transformers import AutoTokenizer, AutoModelWithLMHead
+  
+  tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
+  
+  model = AutoModelWithLMHead.from_pretrained("microsoft/DialoGPT-small")
+              </pre>
+              
+              <div class="border-b px-4 py-2 bg-gradient-to-r from-gray-50 to-white border-gray-200 flex justify-between items-center h-11">
+                <h3 class="font-semibold">
+                  Or just clone the model repo
+                </h3>
+              </div>
+              <pre class="whitespace-pre-line text-sm p-4 text-gray-700">
+  git lfs install
+  git clone https://huggingface.co/microsoft/DialoGPT-small
+  <div class="text-gray-500 text-xs">
+    # if you want to clone without large files – just their pointers
+    # prepend your git clone with the following env var:
+  </div>
+  GIT_LFS_SKIP_SMUDGE=1
+              </pre>
+
+            </div>
+  </ul>
+</div></div>
+      </div>
+    </div>
+  </div>
+	</div>
+</header>
+<div 
+	class="container relative space-y-4 flex flex-col md:grid md:gap-6 md:space-y-0 overflow-hidden
+		md:grid-cols-12
+		 
+		
+	"
+	
+>
+	<section class="pt-8 border-gray-100 col-span-full">
+			
+		<header class="pb-4 flex items-center justify-between">
+	<div class="flex items-center">
+			<div 
+  class="v2-dropdown relative mr-6"
+  
+>
+  <button
+  class="v2-dropdown-button cursor-pointer btn"
+  slot="trigger"
+  type="button"
+>
+			<svg
+  alt=""
+  class="mr-1 text-gray-700 dark:text-gray-400"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+  style="transform: rotate(360deg);"
+>
+  <path
+    d="M13 14c-3.36 0-4.46 1.35-4.82 2.24C9.25 16.7 10 17.76 10 19a3 3 0 0 1-3 3a3 3 0 0 1-3-3c0-1.31.83-2.42 2-2.83V7.83A2.99 2.99 0 0 1 4 5a3 3 0 0 1 3-3a3 3 0 0 1 3 3c0 1.31-.83 2.42-2 2.83v5.29c.88-.65 2.16-1.12 4-1.12c2.67 0 3.56-1.34 3.85-2.23A3.006 3.006 0 0 1 14 7a3 3 0 0 1 3-3a3 3 0 0 1 3 3c0 1.34-.88 2.5-2.09 2.86C17.65 11.29 16.68 14 13 14m-6 4a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1M7 4a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m10 2a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1z"
+    fill="currentColor"
+  ></path>
+</svg>
+		main
+		<svg
+  alt=""
+  class="text-gray-500"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 24 24"
+  style="transform: rotate(360deg);"
+>
+  <path d="M7 10l5 5l5-5z" fill="currentColor"></path>
+</svg>
+</button><div 
+  class="v2-dropdown-menu hidden absolute mt-1 min-w-full bg-white rounded-xl overflow-hidden shadow-lg z-10 border border-gray-100 right-0 top-full "
+>
+  <ul class="min-w-full w-auto">
+  			<li>
+			<ul>
+<li>
+  <div
+    class="v2-dropdown-entry flex items-center hover:bg-gray-50 cursor-pointer
+      hover:underline
+       
+      
+    "
+    
+    
+    
+    
+  >
+    							<a 
+								class="px-3 py-1.5"
+								href="/microsoft/DialoGPT-small/blob/main/pytorch_model.bin"
+							>
+							main
+						</a>
+  </div>
+</li>
+			</ul>
+		</li>
+		<li>
+			<ul class="bg-yellow-50">
+			</ul>
+		</li>
+  </ul>
+</div></div>
+		
+		<a class="hover:underline text-gray-800 dark:text-gray-300" href="/microsoft/DialoGPT-small/tree/main">
+			microsoft/DialoGPT-small
+		</a>
+		<span class="text-gray-300 mx-1 font-light">/</span>
+		
+					<span class="font-light dark:text-gray-300">pytorch_model.bin</span>
+
+	</div>
+	
+	<div class="flex justify-end">
+	</div>
+</header>
+
+		<div class="border border-b-0 dark:border-gray-800 px-3 py-2 flex items-baseline rounded-t-lg bg-gradient-to-b from-white to-gray-100 dark:from-gray-800 dark:to-gray-900">
+			<div class="mr-5 truncate flex-none">
+					system
+			</div>
+		<a 
+			class="mr-4 font-mono text-sm text-gray-500 dark:text-gray-300 truncate hover:underline" 
+			href="/microsoft/DialoGPT-small/commit/fbb567dcf155cf10c7d6ecde22f252fae5d3f3e6"
+		>
+			Update pytorch_model.bin
+		</a>
+		<a 	
+			class="text-sm border dark:border-gray-800 px-1.5 rounded bg-gray-50 dark:bg-gray-900 hover:underline" 
+			href="/microsoft/DialoGPT-small/commit/fbb567dcf155cf10c7d6ecde22f252fae5d3f3e6"
+		>
+			fbb567d
+		</a>
+		<time 
+			datetime="2020-03-10T19:11:18" 
+			class="ml-auto hidden lg:block text-gray-500 dark:text-gray-400 truncate flex-none pl-2"
+		>
+			10 months ago
+		</time>
+</div>
+
+		<div class="flex items-center p-3 border dark:border-gray-800 text-sm text-gray-700 dark:bg-gray-900">
+			<a class="flex items-center hover:underline mr-4" href="/microsoft/DialoGPT-small/raw/main/pytorch_model.bin">
+				<svg
+  alt=""
+  class="mr-1.5 "
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+  style="transform: rotate(360deg);"
+>
+  <path
+    d="M31 16l-7 7l-1.41-1.41L28.17 16l-5.58-5.59L24 9l7 7z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M1 16l7-7l1.41 1.41L3.83 16l5.58 5.59L8 23l-7-7z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M12.419 25.484L17.639 6l1.932.518L14.35 26z"
+    fill="currentColor"
+  ></path>
+</svg>
+				raw
+			</a>
+			<a class="flex items-center hover:underline mr-4" href="/microsoft/DialoGPT-small/commits/main/pytorch_model.bin">
+				<svg
+  alt=""
+  class="mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+  style="transform: rotate(360deg);"
+>
+  <path
+    d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12s12-5.383 12-12S22.617 4 16 4zm0 2c5.535 0 10 4.465 10 10s-4.465 10-10 10S6 21.535 6 16S10.465 6 16 6zm-1 2v9h7v-2h-5V8z"
+    fill="currentColor"
+  ></path>
+</svg>
+				history
+			</a>
+				<a class="flex items-center hover:underline mr-4" href="/microsoft/DialoGPT-small/blame/main/pytorch_model.bin">
+					<svg
+  alt=""
+  class="mr-1.5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true"
+  focusable="false"
+  role="img"
+  class=""
+  width="1em"
+  height="1em"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 32 32"
+  style="transform: rotate(360deg);"
+>
+  <path
+    d="M16 2a14 14 0 1 0 14 14A14 14 0 0 0 16 2zm0 26a12 12 0 1 1 12-12a12 12 0 0 1-12 12z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M11.5 11a2.5 2.5 0 1 0 2.5 2.5a2.48 2.48 0 0 0-2.5-2.5z"
+    fill="currentColor"
+  ></path>
+  <path
+    d="M20.5 11a2.5 2.5 0 1 0 2.5 2.5a2.48 2.48 0 0 0-2.5-2.5z"
+    fill="currentColor"
+  ></path>
+</svg>
+					blame
+				</a>
+			<div class="ml-auto dark:text-gray-300">
+				134 Bytes
+			</div>
+		</div>
+
+			<div class="border border-t-0 rounded-b-lg dark:bg-gray-900 dark:border-gray-800 overflow-x-auto">
+				<table>
+					<tr>
+						<td class="align-top text-right select-none">
+							<pre class="p-3 text-sm overflow-x-auto">1
+2
+3
+4</pre>
+						</td>
+						<td class="align-top w-full">
+							<pre class="p-3 text-sm overflow-x-auto"><span class="hljs-attribute">version</span> https://git-lfs.github.com/spec/v<span class="hljs-number">1</span>
+<span class="hljs-attribute">oid</span> sha<span class="hljs-number">256</span>:e<span class="hljs-number">6</span>e<span class="hljs-number">2</span>be<span class="hljs-number">6</span>d<span class="hljs-number">12</span>f<span class="hljs-number">77</span>bf<span class="hljs-number">925</span>a<span class="hljs-number">89</span>f<span class="hljs-number">2381</span>c<span class="hljs-number">6</span>c<span class="hljs-number">685</span>f<span class="hljs-number">4739752289039</span>d<span class="hljs-number">590622</span>d<span class="hljs-number">37</span>d<span class="hljs-number">48</span>a<span class="hljs-number">153</span>d
+<span class="hljs-attribute">size</span> <span class="hljs-number">351265583</span>
+</pre>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+</div>
+	</main>
+	
+	<script defer src="/front/build/bundle.b7bc997.js"></script>
+	<script>
+		if (! (
+			['localhost', 'huggingface.test'].includes(window.location.hostname)
+			|| window.location.hostname.includes('ngrok.io')
+		)) {
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ganalytics');
+			ganalytics('create', 'UA-83738774-2', 'auto');
+			ganalytics('send', 'pageview');
+		}
+	</script>
+</body>
+</html>
