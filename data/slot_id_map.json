@@ -1,0 +1,22 @@
+{
+    "venuename": 0,
+    "venueaddress": 1,
+    "telephone": 2,
+    "images": 3,
+    "venuescore": 4,
+    "credit cards": 5,
+    "menus": 6,
+    "venueneigh": 7,
+    "open span": 8,
+    "parking": 9,
+    "dining options": 10,
+    "restroom": 11,
+    "wi-fi": 12,
+    "music": 13,
+    "outdoor seating": 14,
+    "wheelchair accessible": 15,
+    "smoking": 16,
+    "reservations": 17,
+    "drinks": 18,
+    "price": 19
+}

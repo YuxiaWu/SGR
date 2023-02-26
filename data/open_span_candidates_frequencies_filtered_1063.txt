@@ -1,0 +1,1063 @@
+image	5590
+address	3998
+recommendation	3680
+anything else	3359
+tip or suggestion	2774
+food	1749
+mall	1666
+preference	1505
+hotel	1282
+number	1174
+type	1148
+location	1118
+where	982
+authentic	894
+scenic view	762
+good service	747
+coffee	639
+bar	623
+good value	614
+any other	554
+family friendly	537
+park	515
+place	494
+place to eat	470
+japanese food	452
+dim sum	450
+drink	437
+local food	432
+price	413
+cuisine	409
+friendly staff	402
+clean	399
+good for date	396
+good for a quick meal	391
+seafood	386
+wifi	353
+noodle	348
+building	343
+chinese food	338
+vegetarian food	338
+cocktail bar	335
+region	321
+quiet	313
+good for group	311
+music	309
+comfortable	309
+room	294
+nightlife	285
+indian food	285
+near	283
+what	282
+budget	280
+cozy	278
+thai food	267
+crab	240
+good	236
+garden	235
+buffet	234
+museum	234
+chilli crab	234
+italian food	231
+romantic	230
+view	226
+pizza	223
+spacious	221
+casual	211
+chicken	211
+child friendly	204
+information	203
+healthy	203
+fish	203
+barbecue	197
+nice	195
+breakfast	192
+chicken rice	190
+great atmosphere	189
+temple	186
+good for a late night	184
+landmark	183
+satay	182
+steak	179
+cake	179
+discount	178
+another	167
+sunset	167
+soup	165
+homemade	163
+cantonese food	160
+french food	159
+any particular	159
+bakery	139
+dessert	139
+good for single	135
+any thing	133
+sashimi	133
+char siew	131
+mrt	131
+good for special occasion	129
+burger	129
+lobster	129
+opening hour	129
+night	128
+history museum	127
+interior deco	127
+trail	126
+beach	125
+sightseeing	124
+spicy food	124
+group	124
+lunch	121
+prawn paste chicken	121
+reverse bungy	119
+waffle	118
+delicious	118
+tea	118
+playground	117
+activity	117
+marina	117
+beer	117
+coffee mall	115
+rice	115
+exhibit	114
+movie	111
+sushi	110
+pork	109
+tour	108
+steamboat	108
+peranakan	107
+asian restaurant	106
+dance	106
+hostel	106
+architecture	106
+ramen	104
+beef	103
+local	103
+lake	101
+city hall mrt	101
+cocktail	101
+christmas	100
+bridge	100
+specific	100
+fresh air	97
+peking duck	96
+crowd	96
+zoo	95
+salmon	95
+club	94
+light show	93
+recognise	92
+curry	91
+show	90
+rest	89
+egg	89
+ambiance	86
+infinity pool	85
+laksa	84
+specific food	83
+shoe	83
+gong cha	82
+tourist	82
+stall	81
+relax	80
+carrot cake	80
+place to stay	79
+quick meal	79
+michelin star	78
+cheese	78
+rib	78
+chicken wing	77
+pool	77
+historic site	75
+rooftop bar	75
+jog	75
+evening	74
+chocolate	74
+nasi lemak	72
+beef rendang	71
+stay	71
+malay food	71
+menu	71
+river	71
+fancy	70
+free	70
+fishing	69
+performance	69
+art museum	68
+meat	68
+cendol	68
+light	68
+popular	67
+water park	66
+ice cream	66
+water	66
+pasta	65
+indonesian food	65
+durian	65
+casino	64
+scenic lookout	64
+martini	64
+asian food	63
+wagyu beef	63
+vietnamese food	63
+marina bay	63
+balcony	62
+dress	62
+beautiful	62
+artifact	61
+friend	61
+prata	61
+fresh	61
+specific request	60
+naan	60
+bak kut teh	60
+snack	60
+affordable	59
+brunch	59
+panda	58
+theme park	58
+early	58
+concert	57
+other information	57
+more information	57
+pho	57
+friendly	57
+exercise	56
+order	56
+duck	56
+hiking	55
+facial	55
+michelin	55
+penang food	55
+salad	55
+caramel	54
+dinner	54
+lively	53
+seaside	53
+grocery	53
+rooftop	53
+forest	53
+gallery	52
+cycling	52
+snack place	51
+history	51
+clothing	51
+traditional	51
+firework	50
+pudding	50
+spring roll	50
+chill	50
+korean food	50
+art gallery	49
+electronic	49
+popcorn	49
+oyster	49
+bread	49
+botanical garden	49
+other half	49
+antique	48
+wildlife	48
+farm	48
+club room	48
+soba	48
+theatre	48
+omakase	47
+bird	47
+american restaurant	46
+gym	46
+monkey	46
+bubble tea	46
+udon	46
+great view	46
+perfect	46
+river cruise	46
+meditation	46
+amazing	46
+truffle	46
+malay	46
+scenery	46
+scenic	46
+ride	46
+soup dumpling	45
+sea breeze	45
+mosque	45
+trendy	45
+picnic	45
+yummy	45
+handmade	45
+chinese	45
+char kway teow	45
+exhibition	45
+art	45
+hor fun	44
+good food	44
+tasty	44
+accommodation	43
+alone	43
+latte	43
+old	43
+bee hoon	43
+small	43
+cool	43
+nightclub	42
+roast pork	42
+espresso	42
+beef quesadilla	42
+awesome	42
+orchard	42
+jazz music	42
+entrance	41
+facility	41
+variety	41
+western food	41
+cosmetic	40
+tea room	40
+cinema	40
+what food	40
+famous	40
+swimming	40
+lor mee	40
+earl grey tea	39
+halloween	39
+tim ho wan	39
+greenery	39
+anne fontaine	39
+central	39
+book	39
+milk	39
+no	39
+moderate range	38
+fish soup	38
+plaza	38
+craft beer	38
+lounge	38
+fry tofu	38
+angel hair pasta	37
+rain forest	37
+pet	37
+whiskey	37
+fun	37
+online	37
+thai milk tea	37
+fry stuff	37
+espresso drink	36
+taco	36
+butterfly	36
+afternoon tea	36
+spa	36
+church	36
+sambal	36
+modern	36
+love	36
+design	36
+mexican food	35
+mexican restaurant	35
+big portion	35
+tofu	35
+chirashi	35
+outside	35
+big	35
+sports bar	34
+massage	34
+sport	34
+good wifi	33
+ayam buah keluak	33
+burrito	33
+mazu	33
+ticket	33
+toast	33
+nice coffee	33
+cheap	33
+calamari	32
+golf course	32
+sound good	32
+banana cake	32
+good view	32
+cute	32
+animal	32
+description	32
+nature	32
+risotto	32
+soft boil egg	31
+fresh oyster	31
+perform art	31
+flower	31
+unagi	31
+happy hour	31
+fruit	31
+changi airport	30
+roast chicken	30
+dosa	30
+skewer	30
+free admission	30
+dumpling	30
+weekend	30
+crab bee hoon	30
+shrimp	30
+nonya	30
+experience	30
+london eye	29
+crystal jade	29
+breezy	29
+curry rice	29
+biking	29
+convenient	29
+fruit juice	29
+particular food	29
+unique	29
+waterfront	29
+music show	29
+pancake	29
+yoga	29
+dining	29
+bed	29
+nature reserve	28
+nature preserve	28
+durian cake	28
+stroll	28
+liquor	28
+treetop	28
+worth	28
+head	28
+bumboat ride	27
+photography	27
+bak kwa	27
+christmas sale	27
+original singapore sling	27
+liquor collection	27
+science museum	27
+prayer	27
+night show	27
+statue	27
+luxury	27
+review	27
+cash	27
+asian	27
+ngoh hiang	26
+weekday	26
+porridge	26
+fantastic	26
+pastry	26
+pork rib	26
+sweet	26
+work	26
+hungry	25
+hidden gem	25
+harvey norman	25
+cheap range	25
+blessing	25
+chanel	25
+coach	25
+sandwich	25
+must try	25
+cookie	25
+cereal prawn	25
+market	25
+big room	24
+butter chicken	24
+factory outlet	24
+gui ling gao	24
+cupcake	24
+intimate	24
+kate spade new york	24
+fresh food	24
+bird watch	24
+fry rice	24
+queue	24
+pagoda	24
+office	24
+hang out	24
+interesting	24
+meatball	24
+tiong bahru	24
+connect	24
+expensive	24
+jamon serrano	23
+nice view	23
+modern european restaurant	23
+theme park ride	23
+shark fin soup	23
+art deco bar	23
+hobgoblin beer	23
+halal restaurant	23
+bargain price	23
+limo tea	23
+ferris wheel	23
+flavourful	23
+pool bar	23
+english food	23
+bacon	23
+amenity	23
+dine	23
+mutton	23
+other food	23
+crepe	23
+late night	23
+class	23
+wait	23
+street	23
+wine	23
+regional spirit	22
+oyster omelette	22
+outlet mall	22
+moringa tempura	22
+island coffee	22
+shanghai hairy crab	22
+high tea	22
+sea bass	22
+cheng tng	22
+tiramisu	22
+entertainment	22
+black truffle	22
+mac and cheese	22
+skyline	22
+mookata	22
+chili	22
+nyonya	22
+korean bbq	22
+breeze	22
+mango	22
+chocolate fondue	21
+pork burger	21
+white wine	21
+another restaurant	21
+asics factory outlet	21
+nasi padang	21
+preferred price	21
+muffin	21
+milkshake	21
+party	21
+nasi campur	21
+roast duck	21
+attraction	21
+waterfall	21
+flavour	21
+kebab	21
+pie	21
+downtown	21
+heritage	21
+outlet	21
+delivery	21
+hot tub	20
+lai heng fry kuay	20
+more detail	20
+roller blading	20
+chilli mee	20
+chwee kueh	20
+spanish restaurant	20
+private balcony	20
+gelato ice cream	20
+tired	20
+business trip	20
+slide	20
+merlion	20
+terracotta warrior	20
+speakeasy	20
+gin	20
+bak chor mee	20
+kangkong	20
+saturday	20
+collection	20
+miso soup	19
+avocado milkshake	19
+fine dining	19
+luxury brands	19
+bosco misto	19
+herbal jelly	19
+water slide	19
+hipster	19
+rooftop pool	19
+tempura	19
+belgian waffle	19
+galette	19
+goat	19
+tequila	19
+laser	19
+fountain	19
+sun yat sen	19
+reasonable price	18
+airport	18
+tau sar piah	18
+asian culture	18
+good for business meeting	18
+butter sotong	18
+haircut	18
+avocado juice	18
+foie gras	18
+steam chicken	18
+assistance	18
+croissant	18
+filipino food	18
+tofu cheesecake	18
+camera	18
+tandoori chicken	18
+local fruit	18
+tram	18
+food center	18
+basement	18
+recreation	18
+tanjong pagar	18
+hawker center	18
+quality	18
+plum wine	17
+modern design	17
+wedding banquet	17
+turkish food	17
+cricket ground	17
+brewery	17
+sea urchin	17
+relax view	17
+turkish restaurant	17
+york hotel	17
+coconut cake	17
+hike	17
+circus	17
+huge	17
+scallop	17
+hard boil egg	17
+deli	17
+monument	17
+green tea	17
+ravioli	17
+swim	17
+sculpture	17
+hokkien	17
+inexpensive	17
+craving	17
+culture	17
+central mall	17
+sunday	17
+alcohol	17
+wide selection	17
+right side	17
+frappe	17
+future	17
+wide open space	17
+friday	17
+promotion	17
+worship	17
+rustic	17
+china	17
+green curry	16
+icon of singapore	16
+sculpture garden	16
+peaceful	16
+fry carrot cake	16
+nice park	16
+nature trail	16
+water view	16
+large window	16
+water sport	16
+flea market	16
+eggs benedict	16
+luxury apparel	16
+kunefe	16
+falafel	16
+rava dosai	16
+scone	16
+signboard	16
+fresh fruit juice	16
+hand roll	16
+stingray	16
+kaya toast	16
+reasonably price	16
+long queue	16
+panoramic view	16
+har gow	16
+ikura	16
+pray	16
+fast food	16
+orchid club	16
+good place	16
+definitely	16
+interested	16
+gift	16
+poor score	16
+island	16
+bike	16
+fish and chip	15
+jumbo shrimp	15
+lovely	15
+artefact	15
+free mini bar	15
+asics shoe	15
+boat ride	15
+people watch	15
+air conditioning	15
+run trail	15
+bike rental	15
+hotpot restaurant	15
+excellent martini	15
+mango sago pomelo	15
+selection of ice cream	15
+tonkatsu	15
+mee sua gor	15
+american style	15
+jalan bukit merah region	15
+sushi restaurant	15
+top of marina bay	15
+dimsum	15
+food craving	15
+tender	15
+street food	15
+oriental	15
+cheeseburger	15
+beach park	15
+cheesecake	15
+chicken soup	15
+champagne	15
+holiday	15
+live band	15
+lime juice	15
+mexican	15
+jewelry	15
+shower	15
+green apple	15
+mediterranean	15
+vibe	15
+udon restaurant	14
+shirt	14
+singapore s history	14
+insect repellent	14
+buddha statue	14
+near paragon	14
+chau tar bee hoon	14
+dal makhani	14
+cheese bread	14
+what will you like	14
+beef tongue taco	14
+staycation	14
+fry pork	14
+grill octopus	14
+tapa	14
+creative	14
+street mall	14
+beef brisket	14
+sake	14
+city view	14
+prawn mee	14
+wonderful	14
+matcha	14
+neighbourhood	14
+golf	14
+interactive tree	14
+late afternoon	14
+daytime	14
+large marine pond	14
+moderate	14
+event	14
+wander around	13
+scramble egg	13
+shrimp dumpling	13
+affordable price	13
+taiwanese restaurant	13
+fendi	13
+louis vuitton	13
+fresh baked bread	13
+cable car	13
+soup place	13
+tv screen	13
+mango lassi	13
+refreshment	13
+ice cream sandwich	13
+ferry	13
+uniqlo mall	13
+compare	13
+public art	13
+supermarket	13
+great place	13
+must visit	13
+capsule	13
+special exhibition	13
+vodka	13
+bus stop	13
+unfortunately	13
+sound system	13
+raffles city	13
+bento box	13
+detail	13
+margarita	13
+takashimaya	13
+juicy	13
+mosquito repellent patch	13
+generous portion	13
+fair	13
+good review	12
+whole glance	12
+marina bay region	12
+free entry	12
+spa programme	12
+kway tiao	12
+beef tenderloin	12
+paragon	12
+comedy masala	12
+what will you	12
+crispy suckle pig	12
+royal sporting house	12
+kitten	12
+fry item	12
+herbal soup	12
+juice bar	12
+wedding	12
+kite fly	12
+daily special	12
+furniture	12
+frog porridge	12
+walk around	12
+mustafa	12
+biryani	12
+sponge cake	12
+bargain	12
+hotpot	12
+specific region	12
+foreign food	12
+dinosaur	12
+barbershop	12
+salon	12
+ramp	12
+negroni	12
+contemporary	12
+run	12
+fragrant	12
+hectare	12
+moderate restaurant	11
+high quality	11
+good restaurant	11
+heart of chinatown	11
+mee siam	11
+bachelor party	11
+vermouth	11
+jacuzzi	11
+boat taxi	11
+travel alone	11
+suntec city	11
+evening walk	11
+field	11
+banana leaf	11
+alfresco bar	11
+fresh ingredient	11
+herbal tea	11
+gift mall	11
+roof garden	11
+nyonya culture	11
+luxurious accommodation	11
+business meeting	11
+bukit batok town park	11
+carrot cake stall	11
+koufu	11
+mango sticky rice	11
+papaya salad	11
+american spirit	11
+olive rice	11
+teochew porridge	11
+outdoor sculpture	11
+bowling	11
+english pop	11
+flight	11
+beef hor fun	11
+tang card	11
+set meal	11
+spaghetti	11
+mascot	11
+farming	11
+accessible	11
+high end	11
+quay	11
+reserve	10
+accessory	10
+asian artifact	10
+pan asian culture	10
+baby squid	10
+bar lover	10
+riverside quay	10
+sneaker	10
+girl friend	10
+triton	10
+near to raffle mall	10
+raffles mall	10
+fresh cut papayas	10
+vertical marathon	10
+tulip	10
+gnc mall	10
+frapsé	10
+motel	10
+gastropub	10
+near me	10
+provide free shower gel	10
+beef roll	10
+fishing pier	10
+wine collection	10
+villa	10
+open sandwich	10
+whisky bar	10
+martial art dojo	10
+drive range	10
+comic book	10
+wing joint	10
+costly	10
+karaoke	10
+observation wheel	10
+brownie	10
+homey	10
+cream puff	10
+han dynasty funerary object	10
+unable	10
+gummiberry	10
+bonsai	10
+hidden spot	10
+hindu	10
+indoor	10
+lamb	10
+southeast asia	10
+omelette	10
+baguette	10
+website	10
+historical	10
+excellent	10
+mezzes	9
+hookah	9
+guidance	9
+drunken cockle	9
+clam	9
+theme parks	9
+smoothie	9
+palak paneer	9
+differentiate	9
+wide range	9
+ice hazelnut	9
+stamp	9
+pig organ soup	9
+iconic	9
+beautifully	9
+feed time	9
+uncrowded	9
+anniversary celebration	9
+photograph	9
+guilin	9
+original	9
+polar bear	8
+rain drop	8
+trium fitness	8
+bibimbap	8
+artsy	8
+parfait	8
+cider	8
+express pass	8
+black pepper	8
+lee wee brother	8
+eggplant	8
+handcraft	8
+telok blangah	8
+apparel	8
+gravy	8
+gorgeous	8
+starter	8
+lemongrass creme brûlée	8
+too low	8
+diner	8
+outdoor escalator	8
+superb	8
+mie goreng	8
+pretzel	8
+customise	8
+mash potato	8
+disused granite quarry	8
+yes	8
+cockle	7
+service apartment	7
+australian restaurant	7
+maze	7
+hobgoblin	7
+kampung	7
+parma ham	7
+hainan restaurant	7
+picnicker	7
+convention center	7
+tau suan	7
+quiche	7
+greek restaurant	7
+lemon pepper	7
+hokkien mee	7
+buah keluah	7
+refreshing	7
+level 2	7
+parrot	7
+peace	7
+umbrella	7
+churrasco	7
+yong tau foo	7
+adult	7
+uniqlo	7
+towel	7
+pleasant	7
+hoegaarden	7
+esplanade	7
+fatty cheong	7
+custard puff	7
+observation deck	7
+cold storage	7
+urban landscape	7
+imbiah lookout	7
+stuff beancurd	7
+wet	7
+pretty	7
+civic district	6
+mythical creature	6
+luxurious	6
+aquarium	6
+briyani	6
+coppino	6
+freebie	6
+farther away	6
+kill time	6
+shellfish	6
+kailan	6
+sochi	6
+tagliolini	6
+tendon	6
+large complex	6
+lobby	6
+booze	6
+camping	6
+bloody mary	6
+kang kong	6
+relaxed	6
+lasagna	6
+buddha	6
+memorable	6
+foodie	6
+roast suckle pig	6
+skywalk	6
+screening	6
+community engagement	6
+seabass	6
+spinach	6
+west asia	6
+award win	6
+rasa dosai	6
+zi char	6
+katong	6
+mozzarella	5
+shabu shabu	5
+live music	5
+valet	4
+you tiao	4
+public lot	4
+wanton mee	4
+crowded	4
+american	3
+average	3
+guide	3
+vivo city	2
+antidote	2
+spin	2
+celestial body	2
+very expensive	2
+peacock	2
+tom yum	2
+bar snack	1
+shred taro	1
+private lot	1
+pose	1
+chota chu kang	1
+avocado shake	1
