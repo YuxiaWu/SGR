@@ -1,0 +1,9 @@
+nltk-3.5
+pandas-1.2.3
+scipy-1.6.1
+texttable-1.6.3
+scikit-learn-0.24.1
+torch-scatter-2.0.6  # pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html --user
+torch-sparse-0.6.9
+torch-geometric-1.6.3
+tensorboardX-2.1
