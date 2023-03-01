@@ -11,7 +11,7 @@ import json
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
 import time
-from param_parser_628 import parameter_parser
+from param_parser import parameter_parser
 import os
 
 print(sys.path)
@@ -28,7 +28,7 @@ random.seed(SEED)
 torch.cuda.manual_seed(SEED)
 args = parameter_parser()
 
-transformer_model = './microsoft/DialoGPT-small'
+transformer_model = './DialoGPT-small'
 
 if args.act_single:
     input_format = 'action_prediction_single'
