@@ -72,13 +72,8 @@ dataloader_train_act = DataLoader(train, batch_size=BATCH_SIZE, shuffle=False, n
 dataloader_val_act = DataLoader(val, batch_size=BATCH_SIZE, shuffle=False, num_workers=0, pin_memory=True, drop_last=False, collate_fn=collator_eval)
 dataloader_test_act = DataLoader(test, batch_size=BATCH_SIZE, shuffle=False, num_workers=0, pin_memory=True, drop_last=False, collate_fn=collator_eval)
 
-# the dataloader for act prediction
 dataloader_act_all = [dataloader_train_act, dataloader_val_act, dataloader_test_act]
-
-#cuda = True
-#device_ids = get_device_ids(cuda=cuda)
 device_ids = [0]
-print('device_ids: ', device_ids)
 steps = 1000
 
 act_predict_model = DialoGPT(transformer_model, num_training_steps=steps, lr=5e-5, device_idxs=device_ids, cuda=True, pad_value=pad_value)
@@ -90,8 +85,7 @@ elif not args.with_image:
     act_predict_model.load_model('./dialogpt/checkpoint/action_prediction_woimage_microsoft#DialoGPT-small_03-08-2021 01:57:20.1627927040_val_acc-AR:0.353_val_loss-L:6.16 LR:6.157.th') 
 else:
     act_predict_model.load_model(
-		#'../dialogpt/checkpoint/action_prediction_microsoft#DialoGPT-small_13-01-2021 15:43:55.1610523835_val_acc-AR:0.371_val_loss-L:5.33 LR:5.325.th'
-		'./dialogpt/checkpoint/action_prediction_microsoft#DialoGPT-small_21-03-2021 03:42:18.1616269338_val_acc-AR:0.37_val_loss-L:5.63 LR:5.625.th'
+		'./dialogpt/checkpoint/action_prediction_microsoft#DialoGPT-small_13-01-2021 15:43:55.1610523835_val_acc-AR:0.371_val_loss-L:5.33 LR:5.325.th'
 		)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 act_predict_model = act_predict_model.to(device)
@@ -100,7 +94,6 @@ act_predict_model.eval()
 tokenizer_or_transformer_model = transformer_model
 if isinstance(tokenizer_or_transformer_model, str):
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_or_transformer_model)
-    print('auto tokenizer')
 else:
     tokenizer = tokenizer_or_transformer_model
 
@@ -126,16 +119,7 @@ def get_ap(act_predict_model, dataloader_act_all, mode):
             pre = result['predictions']['rg']
             gt = result['gts']['rg']
             pre_token = tokenizer.convert_ids_to_tokens(pre)
-            #print('pre_token: ', pre_token)
-            #['Ġinform', ';', 'Ġrecommend', 'Ġ<', '|', 'end', 'of', 'action', '|', '>']
-
-            #pre_action = pre_token[5:-7]
-            #pre_action = pre_token[:-7]
-            #pre_action = [i[1:] for i in pre_action]
             pre_action = [i[1:] for i in pre_token if i[1:] in set(['inform', 'request', 'recommend'])]
-            #print('pre_action: ', pre_action)
-
-            #gt_action = sorted(list(agent.keys()))
             if args.act_single:
                 print('pre_action: ', pre_action)
                 try:
