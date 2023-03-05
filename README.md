@@ -9,3 +9,5 @@ The data we used： "MMConv: An Environment for Multimodal Conversational Search
 The checkpoint of action predication can be downloaded from here (PS: I will upload it into Google Cloud in the future～～):
 
 链接: https://pan.baidu.com/s/1nlMlE8ge9HfV6sqpuhiJDA?pwd=kwqx 提取码: kwqx
+
+Put it into the fold 'dialogpt/checkpoint/'
