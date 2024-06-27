@@ -16,11 +16,8 @@ The package can be installed by running the following command.
 
 The original dataset we used is： "MMConv: An Environment for Multimodal Conversational Search across Multiple Domains", SIGIR 21
 
-We provide the preprocessed data files which are saved in `./dialogpt/resources.zip` including the following files:
+The preprocessed data is saved in `./data/`
 
-action prediction data:
-
-`train.action_prediction`, `val.action_prediction`, `test.action_prediction`
 
 
 # Pretrain the signed for the knowledge graph
@@ -37,13 +34,17 @@ You will get the embeddings of each node in the graph in `./SGCN/output/embeddin
 
 **The checkpoint of action predication can be downloaded from here** :
 
-link: https://pan.baidu.com/s/1nlMlE8ge9HfV6sqpuhiJDA?pwd=kwqx Code: kwqx
+Google Drive: https://drive.google.com/file/d/1ZFRr7KTQGaQuMDhPkBOyjT7PS7D0oCQH/view?usp=drive_link
 
 Put it into the fold 'dialogpt/checkpoint/'
 
 **Run `python get_action_predction_results.py`**. You will get the action prediction results `data/act_prediction_result/`
 
-You can also train the action prediction model using the data files in `./dialogpt/resources`: 
+We provide the preprocessed data for action prediction in `./dialogpt/resources.zip` including the following files:
+
+`train.action_prediction`, `val.action_prediction`, `test.action_prediction`
+
+You can also train the action prediction model using the resources files: 
 ```
 cd ./dialogpt
 python train_ap.py
